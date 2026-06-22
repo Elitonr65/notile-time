@@ -1,6 +1,12 @@
-# notile_time
+# Notile Time
 
-A new Flutter project.
+Aplicativo Flutter para controle de jornada, autenticação, empresa, perfil, histórico de ponto e relatórios.
+
+## Produção
+
+- Configure Supabase com `--dart-define=SUPABASE_URL=...` e `--dart-define=SUPABASE_ANON_KEY=...` quando precisar trocar o ambiente sem alterar código.
+- Para assinar Android em release, crie `android/key.properties` com `storeFile`, `storePassword`, `keyAlias` e `keyPassword`. O arquivo já é ignorado pelo Git.
+- Validações atuais: `flutter analyze`, `flutter test` e `flutter build web --release`.
 
 ## Getting Started
 

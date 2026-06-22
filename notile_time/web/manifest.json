@@ -1,11 +1,11 @@
 {
-    "name": "notile_time",
-    "short_name": "notile_time",
+    "name": "Notile Time",
+    "short_name": "Notile Time",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Controle de jornada e ponto da Notile.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

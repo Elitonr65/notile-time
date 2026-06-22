@@ -46,7 +46,11 @@ class JornadaPadraoProvider extends ChangeNotifier {
   }
 
   Future<void> salvar(JornadaPadrao jornada) async {
-    await create(jornada);
+    if (jornada.id == null) {
+      await create(jornada);
+    } else {
+      await update(jornada);
+    }
 
     configuracao = jornada;
 

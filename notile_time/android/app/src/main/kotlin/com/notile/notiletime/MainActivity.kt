@@ -1,4 +1,4 @@
-package com.example.notile_time
+package com.notile.notiletime
 
 import io.flutter.embedding.android.FlutterActivity
 
